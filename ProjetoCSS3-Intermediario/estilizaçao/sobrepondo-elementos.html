@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sobrepondo elemento</title>
+    
+    <style>
+        .conteudo1{
+            border: 1px solid red;
+            background: orange;
+            width: 200px;
+            height: 200px;
+            position: absolute;
+            z-index: 2;
+        }
+        .conteudo2{
+            border: 1px solid red;
+            background: green;
+            width: 200px;
+            height: 200px;
+            position: absolute;
+            top: 80px;
+            left: 80px;
+            z-index: 1;
+        }
+    </style>
+</head>
+<body>
+    <div class="conteudo1">
+        Conteudo 1
+    </div>
+    <div class="conteudo2">
+        Conteudo 2
+    </div>
+</body>
+</html>

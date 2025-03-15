@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>tamanho de textos</title>
+
+    <style>
+        /* Aqui ele esta dizendo que a fonte do texto vai esta 200% proporcional com o tamanho da tela*/
+        .texto{
+            text-align: center;
+            /* 
+            px -> tamanho fixo
+            % -> tamanho relativo
+            em -> tamanho relativo ao container pai
+            */
+            font-size: 200%;
+        }
+        /* aqui ele esta definindo o tamanho da fonte do texto da div*/
+        div{
+            text-align: center;
+            font-size: 60px;
+        }
+        /* nessa classe o em vai esta pegando o tamanho da fonte da div e multiplicando por 2*/
+        .texto2{
+            font-size: 2em;
+        }
+
+    </style>
+</head>
+<body>
+    <h1 class="texto">Ola Mundo!</h1>
+
+    <!--aqui memso a div tendo o valor fixo, o h3 fica com tamanho diferente pois foi aplicado uma classe diretamente a ela-->
+    <div>
+        <h2>Pessoal</h2>
+        <h3 class="texto2">Tudo Bom ?</h3>
+    </div>
+
+    
+    
+</body>
+</html>

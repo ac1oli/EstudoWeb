@@ -1,0 +1,41 @@
+body{
+    background-image: url('img/fundo.png');
+    font: 15px Arial, Helvetica, sans-serif;
+}
+
+a{
+    color: rgb(37, 37, 68);
+    text-decoration: none;
+    padding: 6px;
+}
+
+h4{
+    color: rgb(155, 92, 36);
+}
+
+#formatacao{
+    width: 900px;
+}
+
+#menu{
+    background-color: rgb(206, 194, 180);
+    padding: 15px;
+}
+
+#sobre{
+    padding: 10px;
+    background-color: rgba(173, 163, 150, 0.661);
+}
+
+#fim{
+    text-align: center;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.borda{
+    border: 10px solid rgba(110, 103, 94, 0.661);
+}
+
+
+

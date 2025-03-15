@@ -1,0 +1,248 @@
+/*Estrutura do Site*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    background: #fff url(img/fundo.png) repeat-x ;
+}
+
+#container{
+    /* border: 1px solid red; */
+    width: 800px;
+    margin: 0 auto;
+}
+
+#topo{
+    height: 150px;
+    padding-top: 25px ;
+    background:  url(img/detalhe-topo.png) no-repeat right top;
+    /* border: 1px solid red; */
+}
+
+.logo{
+    width: 152px;
+    height: 66px;
+    background: url(img/logo.png);
+    text-indent: -30000px;
+}
+
+/* Barra de Navegação */
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#topo ul{
+    border-radius: 20px;
+    margin-top: 30px;
+    background: #b10333;
+    float: left;
+}
+#topo ul li{
+    float: left;
+}
+
+#topo ul a{
+    font-size: 0.9em;
+    display: block;
+    padding: 0.5em 1.2em;
+    line-height: 2em;
+    text-decoration: none;
+    color: #fff;
+    background: url(img/divisor.png) no-repeat left center;
+}
+
+#topo ul .primeiro a{
+    background: none;
+}
+
+#topo ul a:hover{
+    border-radius: 20px;
+    color: #b10333;
+    background: #fff;
+}
+
+body.home #navegacao a#home,
+body.brasil #navegacao a#brasil,
+body.internacional #navegacao a#internacional,
+body.economia #navegacao a#economia,
+body.saude #navegacao a#saude,
+body.ciencia #navegacao a#ciencia,
+body.fotos #navegacao a#fotos
+{
+    border-radius: 20px;
+    color: #b10333;
+    background: #fff;
+    cursor: text;
+}
+
+/* CONTEUDO DA PAGINA */
+
+#conteudo{
+    margin-top: 60px;
+    background: #f5f5f5;
+}
+
+#lateral{
+    width: 180px;
+    float: left;
+    margin: 0 0 20px -765px;
+}
+
+#primario{
+    width: 270px;
+    float: left;
+    margin: 0 0 20px 200px;;
+}
+
+#duas-coluna #primario{
+    
+    width: 560px;
+    float: left;
+}
+
+#uma-coluna #primario{
+    /* border: 1px solid red; */
+    width: 800px;
+    margin: 0 0 20px 0;
+}
+
+#segundario{
+    width: 270px;
+    float: left;
+    margin:0 0 20px 20px;
+}
+
+
+#container-rodape{
+    clear: both;
+    padding: 20px;
+    background: #294c71;
+}
+
+/*Caixas*/
+
+.caixa{
+    margin: 10px 0;
+    padding: 5px;
+    background: #f3f3f3 url(img/fundo-caixa.png);
+}
+
+h2{
+    font-size: 1.2em;
+    background: #294c71;
+    color: #fff;
+    padding: 5px;
+}
+
+.caixa-conteudo{
+    background: #fff;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+/* Formatação do Menu Lateral */
+
+#lateral ul a{
+    font-size: 0.9em;
+    padding: 10px;
+    display: block;
+    color: #000;
+    text-decoration: none;
+    border-bottom: 1px solid #d4d3d3;
+}
+
+#lateral ul a:hover{
+    background: #f9f9f9 url(img/marcador.png) no-repeat left center;
+    padding-left: 25px;
+    color: #a1a1a1;
+}
+
+/* Formatação de Formulario*/
+
+label{
+    display: block;
+    cursor: pointer;
+}
+
+input{
+    padding: 5px;
+    margin-bottom: 10px;
+    font-size: 0.9em;
+    background-color: #fff;
+    border: 1px solid #CCC;
+}
+
+input.submit{
+    width: 80px;
+    color: #fff;
+    background-color: #b10333;
+    border: 2px solid #870529;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+/* Formatação de Imagem */
+
+img.imagem-principal{
+    width: 98%;
+    border: 3px solid #dfdfdf;
+}
+
+/* Formatando Cabeçalhos*/
+
+h3{
+    text-transform: uppercase;
+    display: inline;
+    font-size: 0.8em;
+    padding: 3px;
+}
+
+.destaques h3{
+    background: #b10333;
+    color: #fff;
+}
+
+.entrevista h3{
+    background: #b10333;
+    color: #000;
+}
+
+/* Formatação de lista de nóticias */
+
+#lista-noticias li{
+    padding: 2px;
+    border-bottom: 1px solid #ccc;
+    height: 65px;
+}
+#lista-noticias li a img{
+    float: left;
+    margin: 5px;
+}
+#lista-noticias li a {
+    text-decoration: none;
+}
+#lista-noticias li a h3{
+    font-size: 0.8em;
+    padding: 0;
+    color: #3e7ab9;
+}
+#lista-noticias li a p{
+    font-size: 0.8em;
+}
+#lista-noticias li:hover{
+    background: #eee;
+    cursor: pointer;
+}
+
+#rodape{
+    width: 800px;
+    margin: 0 auto;
+    color: #fff;
+}

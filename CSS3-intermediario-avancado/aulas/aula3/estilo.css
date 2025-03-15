@@ -1,0 +1,61 @@
+/* ul{
+    
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+li{
+    padding: 10px 20px;
+    background: url(/aulas/aula3/img/seta.png) no-repeat left center;
+
+} */
+
+
+/* BARRA DE NAVEGAÇÃO VERTICAL*/
+/* ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+ul a{
+    
+    width: 200px;
+    height: 40px;
+    display: block;
+    color: #000;
+    text-decoration: none;
+    text-indent: 40px;
+    line-height: 40px;
+    background: #f7b600 url(/aulas/aula3/img/menu.png);
+}
+
+a:hover, .selecionado a{
+    background-position: right bottom ;
+    background-color: #f99200;
+    color: #fff;
+} */
+
+/* BARRA DE NAVEGAÇÃO HORIZOTAL */
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;;
+    width: 720px;
+    background: #159cb0 url(/aulas/aula3/img/fundo-horizontal.png) repeat-x;
+    float: left  ;
+}
+
+ul li{
+    float: left;
+}
+
+ul a{
+    display: block;
+    text-decoration: none;
+    padding: 0 2em;
+    line-height: 2em;
+    color: white;
+    background: url(/aulas/aula3/img/divisor.png) repeat-y;
+}
+

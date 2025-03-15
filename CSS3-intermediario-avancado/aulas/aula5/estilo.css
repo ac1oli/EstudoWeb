@@ -1,0 +1,91 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* TABELA 1 */
+#primeira-tabela{
+    margin-bottom: 100px;
+}
+
+#primeira-tabela h1{
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+#tabela{
+    width: 400px;
+    margin: auto;
+    background: rgb(0, 255, 38);
+}
+
+#tabela table{
+    border: 1px solid red;
+    width: 400px;
+    border-collapse: collapse;
+}
+
+#tabela table th{
+    letter-spacing: 0.1em;
+    text-align: left;
+    padding: 5px;
+    border-top: 1px solid #999;
+    border-left: 1px solid #999;
+    border-right: 1px solid #999;
+    border-bottom: 1px solid #111;
+}
+
+#tabela table td{
+    padding: 5px;
+    border-right: 1px solid #111;
+    border-bottom: 1px solid #111;
+    border-left: 1px solid #111;
+}
+
+#tabela table tr:hover{
+    background:cyan;
+}
+
+#tabela table td:nth-child(1), #tabela table th:nth-child(1){
+    border-right: 0;
+}
+#tabela table td:nth-child(2), #tabela table th:nth-child(2){
+    border-left: 0;
+    border-right: 0;
+}
+#tabela table td:nth-child(3), #tabela table th:nth-child(3){
+    border-left: 0;
+    text-align: right;
+}
+/* FIM DA PRIMEIRA TABELA */
+
+/* BARRA DE NAVEGAÇÃO */
+
+#navegacao{
+    width: 600px;
+    background: #ccc;
+    margin: 0 auto;
+}
+
+#navegacao ul{
+    list-style: none;
+}
+
+#navegacao ul li{
+    display: inline-block;
+}
+
+#navegacao ul li a{
+    text-decoration: none;
+    padding: 5px 32px;
+    display: block;
+    color: white;
+    border-left: 1px solid;
+    border-right: 1px solid;
+}
+#navegacao a:hover{
+    background: white;
+    color: #ccc;
+}
+
+
+/* FINAL DA BARRA DE NAVEGAÇÃO */
